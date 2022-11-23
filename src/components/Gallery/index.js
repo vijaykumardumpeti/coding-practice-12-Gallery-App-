@@ -92,15 +92,15 @@ export default class Gallery extends Component {
     return (
       <div className="bg-container-1">
         <div className="bg-container-2">
-          <ul className="gallery-image-container">
-            <li>
+          <div className="gallery-image-container">
+      
               <img
                 className="gallery-image"
                 alt={altText}
                 src={galleryImageUrl}
               />
-            </li>
-          </ul>
+           
+          </div>
 
           <div className="content-container">
             <h1>Nature Photography</h1>
